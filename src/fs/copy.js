@@ -9,7 +9,6 @@ const folderName = 'files_copy';
 const copy = async () => {
     const srcPath = `${dirname}/files/`;
     const newFolderName = `${dirname}/${folderName}`;
-    console.log('newFolderName', newFolderName)
     try {
         await fs.mkdir(newFolderName);
         const files = await fs.readdir(srcPath);
