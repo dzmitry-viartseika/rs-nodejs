@@ -1,6 +1,3 @@
-
-// copy.js- реализовать функцию, которая копирует filesфайлы папки со всем содержимым в папку
-// files_copyтого же уровня (если filesпапка не существует или files_copyуже создана, Errorсообщение FS operation failedдолжно быть выброшено)
 import fs from 'fs/promises';
 import { fileNameURLToPath } from './utils/fileNameURLToPath.js';
 import { getDirectoryNamePath } from './utils/getDirectoryNamePath.js';
