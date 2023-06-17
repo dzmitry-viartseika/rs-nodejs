@@ -1,6 +1,3 @@
-// list.js- реализовать функцию, которая выводит весь массив имен файлов из filesпапки в
-// консоль (если filesпапка не существует, Errorсообщение FS operation failedдолжно быть выброшено)
-
 import fs from 'fs/promises';
 import { fileNameURLToPath } from './utils/fileNameURLToPath.js';
 import { getDirectoryNamePath } from './utils/getDirectoryNamePath.js';
