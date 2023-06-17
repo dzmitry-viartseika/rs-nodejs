@@ -24,5 +24,5 @@ const createMyServer = createServerHttp((_, res) => {
 
 export {
     unknownObject,
-    createMyServer
+    createMyServer,
 }
