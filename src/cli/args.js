@@ -1,4 +1,4 @@
-import {DASHES} from "./constants/dashes.js";
+import { DASHES } from './constants/dashes.js';
 
 const parseArgs = () => {
     const inputArgs = process.argv.slice(2);
